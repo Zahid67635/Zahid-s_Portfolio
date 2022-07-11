@@ -1,35 +1,99 @@
-.purple-color{
+.purple-color {
     color: orange;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 5%;
 }
-section{
-    display: flex;
+
+.first-sec {
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
-    
+    background-size: 150%;
+    display: flex;
+
 }
-.half-width img{
-    width: 60%;
-    margin-left: 10%;    
+
+.half-width img {
+    width: 80%;
+    margin-left: 10%;
 }
-#text{
+
+#text {
     text-align: center;
     font-size: 38px;
     padding: 20px 10px;
 
 }
-body{
+
+body {
     margin: 0;
 }
-.half-width h3{
-    font-weight: 400;
-    font-size: 22;
+
+.half-width h3 {
+    font-weight: 300;
+
 }
-.half-width p{
-    font-size: 18px;
+
+.half-width p {
+    font-size: 22px;
     text-align: justify;
-    margin-left: 18%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    padding: 10px 30px;
+}
+
+.half-width-2 {
+    width: 50%;
+    padding-bottom: 130px;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin: 5% 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 70px gray;
+    text-align: justify;
+
+
+}
+
+.half-width a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+}
+
+#section_2 {
+    display: flex;
+}
+
+#experiences_1 {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 7px solid blue;
+}
+
+#experiences_2 {
+    border: ;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 7px solid orange;
+}
+
+.experi_detail {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    color: orange;
+    font-weight: 400px;
 }
